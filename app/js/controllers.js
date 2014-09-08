@@ -11,6 +11,15 @@ phonecatApp.controller('PhoneListCtrl', function ($scope, $http) {
     $scope.orderProp = 'age';
 });
 
+var phonecatControllers = angular.module('phonecatControllers',[]);
+
+phonecatControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', '$http',
+  function($scope, $routeParams, $http) {
+    $http.get('phones/' + $routeParams.phoneId + '.json').success(function(data) {
+      $scope.phone = data;
+    });
+  }]);
+
 //describe('PhoneListCtrl', function(){
 //
 //    it('should create "phones" model with 3 phones', function() {
