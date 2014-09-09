@@ -1,0 +1,73 @@
+{
+    "additionalFeatures": "Contour Display, Near Field Communications (NFC), Three-axis gyroscope, Anti-fingerprint display coating, Internet Calling support (VoIP/SIP)", 
+    "ios7": {
+        "os": "ios7", 
+        "ui": "ios"
+    }, 
+    "availability": [
+        "M1,", 
+        "O2,", 
+        "Orange,", 
+        "Singtel,", 
+        "StarHub,", 
+        "T-Mobile,", 
+        "Vodafone"
+    ], 
+    "battery": {
+        "standbyTime": "250 hours", 
+        "talkTime": "10 hours", 
+        "type": "Lithium Ion (Li-Po) (1560 mAH)"
+    }, 
+    "camera": {
+        "features": [
+            "Flash", 
+            "Video",
+            "touch focus",
+            "geo-tagging",
+            "HDR panorama"
+
+        ], 
+        "primary": "8.0 megapixels"
+    }, 
+    "connectivity": {
+        "bluetooth": "Bluetooth 4.0", 
+        "cell": "Quad-band GSM: 850, 900, 1800, 1900\r\nTri-band HSPA: 900, 2100, 1700\r\nHSPA type: HSDPA (7.2Mbps) HSUPA (5.76Mbps)", 
+        "gps": true, 
+        "infrared": false, 
+        "wifi": "802.11 b/g/n"
+    }, 
+    "description": "iPhone 5s is precision crafted down to the micron. And it’s evident throughout. The beautiful aluminum housing. The sleekness of metal and glass. Sapphire crystal in the Home button. And more sapphire crystal protecting the iSight camera. Design and construction of this level is unmatched. As a result, iPhone 5s looks and feels unbelievably thin and light.", 
+    "display": {
+        "screenResolution": "WVGA (640 x 1136)", 
+        "screenSize": "4.0 inches", 
+        "touchScreen": true
+    }, 
+    "hardware": {
+        "accelerometer": true, 
+        "audioJack": "3.5mm", 
+        "cpu": "1.3GHz Cyclone ", 
+        "fmRadio": false, 
+        "physicalKeyboard": false, 
+        "usb": "USB 2.0"
+    }, 
+    "id": "iphone-5s", 
+    "images": [
+        "img/phones/iphone5s.jpg", 
+        "img/phones/iphone5s1.jpg", 
+        "img/phones/iphone5s3.jpg"
+        
+    ], 
+    "name": "Iphone5s", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "58.6 mm (w)", 
+            "123.8 mm (h)", 
+            "7.66 mm (d)"
+        ], 
+        "weight": "112.0 grams"
+    }, 
+    "storage": {
+        "flash": "16384MB", 
+        "ram": "512MB"
+    }
+}

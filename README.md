@@ -2,11 +2,9 @@
 
 ## Overview
 
-This application takes the developer through the process of building a web-application using
-angular. The application is loosely based on the **Google Phone Gallery**, which no longer
-exists. Here is a historical reference: [Google Phone Gallery on WayBack](http://web.archive.org/web/20131215082038/http://www.android.com/devices/).
+This application is a step by step through the building of a web application using the angular phonecat tutorial as a guide.
 
-Each tagged commit is a separate lesson teaching a single aspect of angular.
+It was given to us as our first assignment and we were required to partner up and do the tutorial.
 
 The full tutorial can be found at http://docs.angularjs.org/tutorial.
 
@@ -94,7 +92,6 @@ To see the changes which between any two lessons use the git diff command.
 
 - Add phone images and links to new pages that show the phone details.
 - Add end2end tests that verify the links to the detail pages.
-- Add CSS to style the page just a notch.
 
 
 ### step-7
@@ -125,42 +122,6 @@ To see the changes which between any two lessons use the git diff command.
 - Update the template for the phone detailed view.
 - Add CSS to make the phone details page look "pretty".
 
-
-### step-9
-
-- Add custom `checkmark` filter.
-- Update phone detail template to use `checkmark` filter.
-- Add unit test for the filter.
-
-### step-10
-
-In the phone detail view, clicking on a thumbnail image, changes the main phone image to be the
-large version of the thumbnail image.
-
-- Define `mainImageUrl` model variable in the `PhoneDetailCtrl` and set its default value.
-- Create `setImage()` controller method to change `mainImageUrl`.
-- Register an expression with the `ngClick` directive on thumb images to set the main image, using
-  `setImage()`.
-- Add e2e tests for this feature.
-- Add CSS to change the mouse cursor when user points at thumnail images.
-
-
-### step-11
-
-- Replace [$http] with [$resource].
-- Created a custom `Phone` service that represents the `$resource` client.
-
-
-### step-12
-
-- Add animations to the application:
-  - Animate changes to the phone list, adding, removing and reordering phones.
-  - Animate changes to the main phone image in the detail view.
-
-
-## Development with angular-phonecat
-
-The following docs describe how you can test and develop further this application.
 
 
 ### Installing dependencies
@@ -262,3 +223,10 @@ For more information on AngularJS please check out http://angularjs.org/
 [protractor]: https://github.com/angular/protractor
 [jasmine]: http://pivotal.github.com/jasmine/
 [karma]: http://karma-runner.github.io
+
+
+At the end of the tutorial we had learnt a little bit about angular and the way it works. Even though much of it still remains a puzzle to us. We attempted to add a phone but with little succes.
+
+
+John Allotey
+Sharon Melomey
